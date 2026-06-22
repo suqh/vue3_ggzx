@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <h1>我是App根组件</h1>
+    <h1>新增一个标题</h1>
   </div>
 </template>
 

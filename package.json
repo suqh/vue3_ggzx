@@ -13,13 +13,16 @@
     "lint:fix": "eslint src --fix",
     "lint:eslint": "eslint src/**/*.{ts,vue} --cache --fix",
     "lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --config commitlint.config.cjs -e -V"
   },
   "dependencies": {
     "vue": "^3.5.34"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^8.0.1",
+    "@commitlint/cli": "^21.0.2",
+    "@commitlint/config-conventional": "^21.0.2",
     "@eslint/js": "latest",
     "@types/node": "^24.12.3",
     "@vitejs/plugin-vue": "^6.0.6",
