@@ -90,9 +90,9 @@ textarea {
 }
 
 button,
-html [type='button'],
-[type='reset'],
-[type='submit'] {
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   padding: 0;
   border: 0;
   color: inherit;

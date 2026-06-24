@@ -11,6 +11,8 @@ let request = axios.create({
 request.interceptors.request.use(config => {
   // config配置对象，headers属性请求头，经常给服务器携带公共参数
   // 返回配置对象
+  console.log(config)
+
   return config
 })
 // 第三步：响应拦截器
